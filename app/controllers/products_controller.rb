@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class ProductsController < ApplicationController
   def index
     render json: Product.all
@@ -13,7 +15,7 @@ class ProductsController < ApplicationController
     product.update(product_params)
     render json: product
   end
-  
+
   def destroy
     Product.destroy(params[:id])
   end
@@ -22,11 +24,11 @@ class ProductsController < ApplicationController
 
   def product_params
     params.permit(
-      :name, 
+      :name,
       :price,
       :description,
       :status,
-      :image 
-    ) 
+      :image
+    )
   end
 end

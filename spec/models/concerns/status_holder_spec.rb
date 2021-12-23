@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 RSpec.describe StatusHolder do
   subject(:instance) { model_class.new }
 
