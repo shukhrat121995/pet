@@ -25,8 +25,8 @@ module StatusHolder
     write_attribute(:status, value)
   end
 
+  # Add the status to the list of available status
   module ClassMethods
-    # Add the status to the list of available status
     def hold_status(*names)
       names.flatten.map(&:to_sym).each do |status_name|
         self._default_status ||= status_name if _statuses.empty?
