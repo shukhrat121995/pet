@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# Controller for serving Product API
 class ProductsController < ApplicationController
   def index
     render json: Product.all

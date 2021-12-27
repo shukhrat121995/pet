@@ -1,9 +1,10 @@
 # frozen_string_literal: true
 
-# Adds methods for managing status column.
 # Add hold_status macros.
 # Example:
 # hold_status :draft, :published, :removed
+
+# Adds methods for managing status column.
 module StatusHolder
   extend ActiveSupport::Concern
 
