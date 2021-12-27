@@ -7,9 +7,9 @@ name: Rails - Install dependencies and run linters
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches:
+      - main
+      - "**"
 jobs:
   run-lint:
     runs-on: ubuntu-latest

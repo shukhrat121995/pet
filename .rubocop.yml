@@ -3,3 +3,5 @@ AllCops:
   Exclude:
     - "bin/*"
     - vendor/bundle/**/*
+    - app/models/concerns/status_holder.rb
+    - spec/models/concerns/status_holder_spec.rb

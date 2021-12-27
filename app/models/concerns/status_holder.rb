@@ -1,9 +1,6 @@
 # frozen_string_literal: true
 
-# Adds methods for managing status column.
-# Add hold_status macros.
-# Example:
-# hold_status :draft, :published, :removed
+# Adds methods for managing status column. Example: hold_status :draft, :published, :removed
 module StatusHolder
   extend ActiveSupport::Concern
 
@@ -28,8 +25,8 @@ module StatusHolder
     write_attribute(:status, value)
   end
 
+  # Add the status to the list of available status
   module ClassMethods
-    # Add the status to the list of available status
     def hold_status(*names)
       names.flatten.map(&:to_sym).each do |status_name|
         self._default_status ||= status_name if _statuses.empty?
