@@ -6,7 +6,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-puts "Seeding..."
+puts 'Seeding...'
 
 Product.create(
   name: 'MacBook Pro 14\'',
@@ -16,4 +16,4 @@ Product.create(
   image: 'https://d1fmx1rbmqrxrr.cloudfront.net/cnet/i/edit/2021/10/apple-macbook-pro-14-2021-1200.jpg'
 )
 
-puts "Seeding done."
+puts 'Seeding done.'
