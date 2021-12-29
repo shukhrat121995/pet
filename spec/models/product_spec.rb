@@ -26,4 +26,10 @@ RSpec.describe Product, type: :model do
     statuses = %w[active inactive]
     it { is_expected.to validate_inclusion_of(:status).in_array(statuses) }
   end
+
+  describe 'length value validation' do
+    it { is_expected.to validate_numericality_of(:price).is_greater_than_or_equal_to(0) }
+    it { is_expected.to validate_length_of(:name).is_at_least(2).is_at_most(20) }
+    it { is_expected.to validate_length_of(:description).is_at_least(20).is_at_most(1000) }
+  end
 end
