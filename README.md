@@ -1,24 +1,26 @@
-# README
+# PET
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple Ruby on Rails API project that is created purely for learning purposes.
 
-Things you may want to cover:
+### Requirements
 
-* Ruby version
+- Ruby version: 3.0.2p107
 
-* System dependencies
+- Rails version: 6.1.4.3
 
-* Configuration
+### Setup & Run
 
-* Database creation
+1. Clone the repo: `git clone git@github.com:shukhrat121995/pet.git`
+2. Install the gem dependencies: `bundle install`
+3. Create a database and seed it with single record: `rails db:create`
+4. Run the application: `rails server`
+5. Open: `http://127.0.0.1:3000/products`
 
-* Database initialization
+### Run Unit Tests
 
-* How to run the test suite
+- Execute: `rspec ./spec/models/product_spec.r`
 
-* Services (job queues, cache servers, search engines, etc.)
+### Run Rubocop locally
 
-* Deployment instructions
-
-* ...
+- Execute: `rubocop`
+- Fix issues: `rubocop -A` or `rubocop -a`
