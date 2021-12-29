@@ -9,3 +9,5 @@ Simple Ruby on Rails API project that is created purely for learning purposes.
 - Rails version: 6.1.4.3
 
 ### Setup & Run
+
+1. Clone the repo: `git clone git@github.com:shukhrat121995/pet.git`
