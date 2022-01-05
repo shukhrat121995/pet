@@ -18,7 +18,7 @@ Simple Ruby on Rails API project that is created purely for learning purposes.
 
 ### Run Unit Tests
 
-- Execute: `rspec ./spec/models/product_spec.r`
+- Execute: `rspec ./spec/models/product_spec.rb`
 
 ### Run Rubocop locally
 
