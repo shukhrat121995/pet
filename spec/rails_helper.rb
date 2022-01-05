@@ -9,6 +9,12 @@ require 'rspec/rails'
 # Require dependencies in the deterministic order to avoid flaky loading issues
 Dir[Rails.root.join('spec/support/**/*.rb')].each { |f| require f }
 
+if ENV['RAILS_ENV'] == 'test'
+  require 'simplecov'
+  SimpleCov.start 'rails'
+  puts "required simplecov"
+end
+
 begin
   ActiveRecord::Migration.maintain_test_schema!
 rescue ActiveRecord::PendingMigrationError => e

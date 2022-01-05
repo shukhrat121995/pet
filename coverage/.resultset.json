@@ -1,0 +1,193 @@
+{
+  "RSpec": {
+    "coverage": {
+      "C:/Users/shukhrat/Desktop/pet/pet_api/app/models/product.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      "C:/Users/shukhrat/Desktop/pet/pet_api/app/models/application_record.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          1,
+          1,
+          null
+        ]
+      },
+      "C:/Users/shukhrat/Desktop/pet/pet_api/app/models/concerns/status_holder.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          11,
+          25,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          124,
+          null,
+          null,
+          1,
+          25,
+          25,
+          25,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          2,
+          2,
+          null,
+          2,
+          2,
+          0,
+          null,
+          null,
+          null,
+          2,
+          null,
+          2,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "C:/Users/shukhrat/Desktop/pet/pet_api/app/channels/application_cable/channel.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "C:/Users/shukhrat/Desktop/pet/pet_api/app/channels/application_cable/connection.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "C:/Users/shukhrat/Desktop/pet/pet_api/app/controllers/application_controller.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "C:/Users/shukhrat/Desktop/pet/pet_api/app/controllers/products_controller.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "C:/Users/shukhrat/Desktop/pet/pet_api/app/jobs/application_job.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "C:/Users/shukhrat/Desktop/pet/pet_api/app/mailers/application_mailer.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      }
+    },
+    "timestamp": 1640785824
+  }
+}
