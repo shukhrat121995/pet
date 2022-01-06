@@ -4,7 +4,7 @@ require 'rails_helper'
 
 RSpec.describe ProductsController, type: :controller do
   describe 'GET index' do
-    subject(:product) { response }    
+    subject(:product) { response }
     it 'has a 200 status code' do
       get :index
       expect(response.status).to eq(200)
