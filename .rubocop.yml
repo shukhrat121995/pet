@@ -5,3 +5,9 @@ AllCops:
     - vendor/bundle/**/*
     - app/models/concerns/status_holder.rb
     - spec/models/concerns/status_holder_spec.rb
+
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
