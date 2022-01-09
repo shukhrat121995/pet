@@ -2,6 +2,7 @@
 
 FactoryBot.define do
   factory :product do
+    id { 1 }
     name { 'MacBook Pro 14\'' }
     price { 1999.99 }
     description { '14 inch MacBook Pro, 512GB, 16GB RAM' }

@@ -7,8 +7,13 @@ class ProductsController < ApplicationController
   end
 
   def create
-    product = Product.create!(product_params)
-    render json: product
+    product = Product.new(product_params)
+    if product.valid?
+      product.save
+      render json: product
+    else
+      json_response(product.errors, 400)
+    end
   end
 
   def update
@@ -31,5 +36,9 @@ class ProductsController < ApplicationController
       :status,
       :image
     )
+  end
+
+  def json_response(object, status = :ok)
+    render json: object, status: status
   end
 end
